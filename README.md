@@ -38,7 +38,7 @@ npm run dev
 bun dev
 ```
 
-Open [http://localhost:3210](http://localhost:3210) to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 ## Customization
 
