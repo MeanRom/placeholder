@@ -28,6 +28,7 @@ Create a `.env.local` file in the root directory:
 NEXT_PUBLIC_FORM_URL=https://your-newsletter-api.com/subscribe
 NEXT_PUBLIC_FORM_ID=your_form_id
 NEXT_PUBLIC_FORM_VALUE=your_list_id
+NEXT_PUBLIC_TUTLE=your_title_not_required
 ```
 
 ### 3. Run the development server

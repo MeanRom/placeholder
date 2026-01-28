@@ -1,10 +1,21 @@
 import Link from "next/link";
 
 export default function Home() {
+  const title = process.env.NEXT_PUBLIC_TUTLE;
+
   return (
     <>
       <div className='flex flex-col text-left gap-4'>
-        <h1 className='text-2xl font-semibold text-black'>In-Dev mode</h1>
+        {title ? (
+          <div className='flex flex-col'>
+            <h1 className='text-2xl font-semibold text-black'>{title}</h1>
+            <h2 className='text-sm font-light text-black uppercase tracking-tight'>
+              In-Dev mode
+            </h2>
+          </div>
+        ) : (
+          <h1 className='text-2xl font-semibold text-black'>In-Dev mode</h1>
+        )}
         <div className='flex flex-col'>
           <p className='text-base text-zinc-600 leading-relaxed'>
             Building a website.
